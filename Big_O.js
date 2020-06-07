@@ -40,32 +40,32 @@ const age = 29;
 //     console.log("This is the default");
 // }
 
-const john = {
-  gameOne: 89,
-  gameTwo: 120,
-  gameThree: 103,
-};
+// const john = {
+//   gameOne: 89,
+//   gameTwo: 120,
+//   gameThree: 103,
+// };
 
-const mike = {
-  gameOne: 36,
-  gameTwo: 50,
-  gameThree: 121,
-};
+// const mike = {
+//   gameOne: 36,
+//   gameTwo: 50,
+//   gameThree: 121,
+// };
 
-const average = (gameOne, gameTwo, gameThree) => {
-  return (gameOne + gameTwo + gameThree) / 3;
-};
+// const average = (gameOne, gameTwo, gameThree) => {
+//   return (gameOne + gameTwo + gameThree) / 3;
+// };
 
-const johnAve = average(john.gameOne, john.gameTwo, john.gameThree);
-const mikeAve = average(mike.gameOne, mike.gameTwo, mike.gameThree);
+// const johnAve = average(john.gameOne, john.gameTwo, john.gameThree);
+// const mikeAve = average(mike.gameOne, mike.gameTwo, mike.gameThree);
 
-console.log("John Team: " + johnAve);
-console.log("Mike Team: " + mikeAve);
+// console.log("John Team: " + johnAve);
+// console.log("Mike Team: " + mikeAve);
 
-const winner = (teamOne, teamTwo) => {
-  teamOne > teamTwo
-    ? console.log(`John\'s team is the winner! average score: ${johnAve}`)
-    : console.log(`Mike\'s team is the winner! average score: ${mikeAve}`);
-};
+// const winner = (teamOne, teamTwo) => {
+//   teamOne > teamTwo
+//     ? console.log(`John\'s team is the winner! average score: ${johnAve}`)
+//     : console.log(`Mike\'s team is the winner! average score: ${mikeAve}`);
+// };
 
-winner(johnAve, mikeAve);
+// winner(johnAve, mikeAve);
